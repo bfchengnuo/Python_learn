@@ -1,0 +1,4 @@
+AccessKey=
+SecretKey=
+name=blog
+url=http://
