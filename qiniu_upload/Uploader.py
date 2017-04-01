@@ -35,6 +35,9 @@ def load_file():
 # 读取文件列表参数
 def load_para():
     is_false = True
+    if len(sys.argv) <= 1:
+        print('请确认输入路径参数！')
+        return
     for path in sys.argv[1:]:
         # 文件路径和文件名
         local_file = path.replace('\\', '/')
